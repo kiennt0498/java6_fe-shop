@@ -1,0 +1,46 @@
+.layout{
+    max-height: 310vh;
+    min-height: 100vh;
+    .ant-layout-header{
+        background-color: rgb(255,255,255);
+        width: 100%;
+        padding: 0;
+        right: 0;
+        top: 0;
+        position: fixed;
+        height: 55px;
+        z-index: 100;
+        
+        .userBar{
+            width: 30%;
+            margin-left: 5%;
+            
+            .avata{
+                margin-right: 10px;
+            }
+           
+        }
+        .ant-menu-light{
+            margin-left: 3%;
+            width: 60%;
+            height: 55px;
+            font-size: 18px;
+            
+        }
+
+    }
+
+    .ant-layout-content{
+        margin-top: 60px !important;
+        padding: 16px !important;
+
+        .content-panel{
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            padding: 20px 16px;
+            height: 100%;
+            border-radius: 3px;
+        }
+    }
+    
+    
+}
